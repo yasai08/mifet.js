@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lib test</title>
+  </head>
+  <body>
+    <script type="module">
+      import { get } from '../scripts/mifet.min.js';
+
+      get('https://jsonplaceholder.typicode.com/todos/1', {}, 3, 5000)
+        .t((data) => {
+          console.log(data);
+        })
+        .c((error) => {
+         console.error('Fetch Error:', error);
+        });
+    </script>
+  </body>
+</html>
