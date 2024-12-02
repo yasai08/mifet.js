@@ -3,7 +3,7 @@ mifet.js
 #### Short for javascript fetch
 ### Installation
 ```bash
-npm install mifet.js
+npm install mifet
 ```
 ### Usage
 ```js
