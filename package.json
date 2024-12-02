@@ -1,0 +1,9 @@
+{
+  "name": "mifet",
+  "version": "1.0.0",
+  "main": "scripts/mifet.js",
+  "description": "A library that shortens fetch",
+  "keywords": ["fetch", "short"],
+  "author": "yasai08",
+  "license": "MIT"
+}
